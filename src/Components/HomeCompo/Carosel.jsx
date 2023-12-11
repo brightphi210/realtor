@@ -16,6 +16,9 @@ import 'react-multi-carousel/lib/styles.css';
 import m1 from './images/m1.png'
 import m2 from './images/m2.png'
 import m3 from './images/m3.png'
+import m4 from './images/m4.png'
+import m5 from './images/m5.png'
+import m6 from './images/m6.png'
 
 import prof from './images/prof.png'
 
@@ -119,6 +122,226 @@ const Carosel = () => {
 
                 <div className='caroselDivEach'>
                     <img src={m3} alt="" />
+                    <div className='caroseldivEachText'>
+                        <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
+                        <div className='carolPrice'>
+                            <p><FaLocationDot />Maharashtra</p>
+                            <h4>$ 590,693</h4>
+                        </div>
+                        <div className='carolSize'>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
+                        </div>
+
+                        <hr />
+
+                        <div className='carolProfile'>
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
+                                <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Carousel>
+        </div>
+
+        <div className='caroselDiv'>
+            <h2>Latest Properties</h2>
+            <p className='carolp'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere </p>
+
+            <Carousel 
+                responsive={responsive}
+                swipeable={false}
+                draggable={true}
+                showDots={false}
+                infinite={true}
+                autoPlaySpeed={1000}
+                keyBoardControl={true}
+            >
+                <div className='caroselDivEach'>
+                    <img src={m1} alt="" />
+                    <div className='caroseldivEachText'>
+                        <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
+                        <div className='carolPrice'>
+                            <p><FaLocationDot />Maharashtra</p>
+                            <h4>$ 590,693</h4>
+                        </div>
+                        <div className='carolSize'>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
+                        </div>
+
+                        <hr />
+
+                        <div className='carolProfile'>
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
+                                <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='caroselDivEach'>
+                    <img src={m6} alt="" />
+                    <div className='caroseldivEachText'>
+                        <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
+                        <div className='carolPrice'>
+                            <p><FaLocationDot />Maharashtra</p>
+                            <h4>$ 590,693</h4>
+                        </div>
+                        <div className='carolSize'>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
+                        </div>
+
+                        <hr />
+
+                        <div className='carolProfile'>
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
+                                <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='caroselDivEach'>
+                    <img src={m3} alt="" />
+                    <div className='caroseldivEachText'>
+                        <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
+                        <div className='carolPrice'>
+                            <p><FaLocationDot />Maharashtra</p>
+                            <h4>$ 590,693</h4>
+                        </div>
+                        <div className='carolSize'>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
+                        </div>
+
+                        <hr />
+
+                        <div className='carolProfile'>
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
+                                <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Carousel>
+        </div>
+
+
+
+        <div className='caroselDiv'>
+            <h2>Featured Listing</h2>
+            <p className='carolp'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere </p>
+
+            <Carousel 
+                responsive={responsive}
+                swipeable={false}
+                draggable={true}
+                showDots={false}
+                infinite={true}
+                autoPlaySpeed={1000}
+                keyBoardControl={true}
+            >
+                <div className='caroselDivEach'>
+                    <img src={m4} alt="" />
+                    <div className='caroseldivEachText'>
+                        <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
+                        <div className='carolPrice'>
+                            <p><FaLocationDot />Maharashtra</p>
+                            <h4>$ 590,693</h4>
+                        </div>
+                        <div className='carolSize'>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
+                        </div>
+
+                        <hr />
+
+                        <div className='carolProfile'>
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
+                                <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='caroselDivEach'>
+                    <img src={m2} alt="" />
+                    <div className='caroseldivEachText'>
+                        <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
+                        <div className='carolPrice'>
+                            <p><FaLocationDot />Maharashtra</p>
+                            <h4>$ 590,693</h4>
+                        </div>
+                        <div className='carolSize'>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
+                        </div>
+
+                        <hr />
+
+                        <div className='carolProfile'>
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
+                                <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='caroselDivEach'>
+                    <img src={m5} alt="" />
                     <div className='caroseldivEachText'>
                         <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
                         <div className='carolPrice'>

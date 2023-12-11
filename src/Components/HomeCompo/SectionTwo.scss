@@ -216,10 +216,19 @@ hr{
 
 @media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
 
+
+    .caroselDiv{
+        padding-top: 10px;
+        padding-bottom: 0 !important;
+    }
     .react-multiple-carousel__arrow {
         background: rgba(0,0,0,0.5) !important;
         top: 40px;
+        z-index: 0 !important;
     }
+
+
+
     .caroselDiv{
         text-align: left;
         padding: 50px 5%;
