@@ -73,6 +73,11 @@
         display: none;
     }
 
+    .navIcons{
+        display: block;
+        margin-left: auto;
+    }
+
 
     .navSection img{
         width: 120px;
@@ -91,6 +96,11 @@
         padding: 30px;
         z-index: 3;
         transition: transform 0.3s ease-in-out;
+    }
+
+
+    .displaySmall.open {
+        transform: translateX(100%);
     }
 
     .displaySmall .navSecTwoDivOne{
@@ -112,3 +122,19 @@
     }
 }
 
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .navSecTwoDivTwo{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .navSecTwoDivOne{
+        display: flex;
+        margin: auto;
+        gap: 20px;
+        align-items: center;
+    }
+}

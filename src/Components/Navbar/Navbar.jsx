@@ -43,7 +43,7 @@ const Navbar = () => {
 
 
 
-            <div className='displaySmall'>
+            <div className= {`displaySmall ${openNavbar ? 'open' : ''}`}>
               <div className='navSecTwoDivOne'>
                 <p>Home</p>
                 <p>Properties</p>
