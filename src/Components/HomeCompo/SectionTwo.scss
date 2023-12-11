@@ -1,0 +1,90 @@
+@import '../variables.scss';
+
+*{@include default}
+
+
+// ====================== Section Two ===========================
+
+.sectionTwo {
+    padding: 20px 15%;
+    text-align: center;
+}
+
+
+.sectionTwoDiv{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.sectTwoEachDiv{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 30px;
+}
+
+.sectTwoEachDiv h2{
+    font-size: 20px;
+}
+
+
+.sectTwoEachDiv p{
+    padding: 20px 0;
+}
+
+.sectTwoEachDiv button{
+    padding: 10px 20px;
+    border: $my-blue solid 1px;
+    background-color: $my-white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.secTwoIcons{
+    font-size: 30px;
+    color: $my-blue;
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    
+    .sectionTwoDiv{
+        display: block;
+    } 
+
+    .sectionTwo h2{
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .sectTwoEachDiv{
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+
+    .sectTwoEachDiv p{
+        font-size: 12px;
+    }
+
+    .sectionTwo {
+        padding: 20px 5%;
+        text-align: center;
+    }
+    
+    .secTwoIcons{
+        padding: 10px !important;
+        font-size: 30px !important;
+    }
+
+    .sectTwoEachDiv h2{
+        padding: 0 !important;
+        font-size: 15px;
+    }
+
+
+
+    
+}
+
+
