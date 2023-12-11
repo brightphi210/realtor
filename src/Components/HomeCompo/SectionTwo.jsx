@@ -6,7 +6,9 @@ import { BsHouseDoor } from "react-icons/bs";
 import { BsPersonFillUp } from "react-icons/bs";
 import { LuThumbsUp } from "react-icons/lu";
 
+
 const SectionTwo = () => {
+
   return (
     <div className='sectionTwo'>
         <h2>Here’s what you can do on <br /> RealtorOne Pro</h2>
@@ -32,9 +34,8 @@ const SectionTwo = () => {
                 <p>We use our exclusive client database to market the property in a tailor-made way - discreetly if desired.</p>
                 <button>Learn More</button>
             </div>
-
-            
         </div>
+
     </div>
   )
 }

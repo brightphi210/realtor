@@ -81,10 +81,80 @@
         padding: 0 !important;
         font-size: 15px;
     }
+}
 
 
+// ============================== Carosel ===================================
 
+.caroselDiv{
+    text-align: left;
+    padding: 50px 10%;
+}
+
+
+.caroselDiv h2{
+    text-align: center;    
+
+}
+
+
+.caroselDiv p{
+    text-align: center;
+    padding-top: 10px;    
+    padding-bottom: 30px;
+}
+
+
+// =============================== carol each ==========================
+
+
+.caroselDivEach{
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.caroselDivEach h3{
+    padding: 10px 0;
+}
+
+.caroseldivEachText{
+    padding: 20px;
+}
+
+.caroselDivEach img{
+    border-radius: 10px 10px 0 0 ;
+    width: 100%;
+}
+
+
+// ================= carol price ======================
+
+.carolPrice{
+    display: flex;
+    align-items: center;
+}
+
+.carolPrice p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.carolPrice h4{
+    margin-left: auto;
     
+}
+
+.carolSize{
+    display: flex;
+    gap: 30px;
+}
+
+.caroseldivEachText p{
+    padding: 10px 0 !important;
 }
 
 
