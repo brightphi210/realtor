@@ -262,8 +262,6 @@ const Carosel = () => {
             </Carousel>
         </div>
 
-
-
         <div className='caroselDiv'>
             <h2>Featured Listing</h2>
             <p className='carolp'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere </p>
