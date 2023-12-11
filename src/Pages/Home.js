@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import SectionOne from '../Components/HomeCompo/SectionOne'
 import SectionTwo from '../Components/HomeCompo/SectionTwo'
 import Carosel from '../Components/HomeCompo/Carosel'
+import SectionThree from '../Components/HomeCompo/SectionThree'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <SectionOne />
         <SectionTwo />
         <Carosel />
+        <SectionThree />
     </div>
   )
 }

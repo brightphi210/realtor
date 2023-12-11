@@ -1,0 +1,107 @@
+@import '../variables.scss';
+
+*{@include default}
+
+// =================== section three ==============================
+
+.sectionThree{
+    display: flex;
+    align-items: center;
+    background-color: #F7F7FF;
+    padding: 20px;
+}
+
+.sectionThreeOne{
+    width: 100%;
+}
+
+.sectionThree img{
+    width: 100%;
+}
+
+.sectionThreeTwo{
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+.sectionThreeText{
+    width: 50%;
+}
+
+.sectionThreeText h2{
+    font-size: 30px;
+}
+
+.sectionThreeText p{
+    font-size: 15px;
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+
+.sectionThreeText button{
+    padding: 13px 30px;
+    background-color: $my-blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+
+// ==================== secnd ======================
+.sectionThreeTexta{
+    width: 50%;
+    justify-content: right;
+    text-align: left;
+}
+
+
+.sectionThreea{
+    display: flex;
+    align-items: center;
+    background-color: #F7F7FF;
+    padding: 20px;
+}
+
+
+.sectionThreeOnea{
+    width: 100%;
+}
+
+.sectionThreea img{
+    width: 100%;
+}
+
+.sectionThreeTwoa{
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+.sectionThreeTexta{
+    width: 80%;
+}
+
+
+.sectionThreeTexta h2{
+    font-size: 30px;
+}
+
+.sectionThreeTexta p{
+    font-size: 15px;
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+
+.sectionThreeTexta button{
+    padding: 13px 30px;
+    background-color: $my-blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
