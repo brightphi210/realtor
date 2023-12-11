@@ -3,6 +3,11 @@ import './SectionTwo.scss'
 
 import { FaLocationDot } from "react-icons/fa6";
 import { BsShare } from "react-icons/bs";
+import { TfiCommentAlt } from "react-icons/tfi";
+import { AiOutlinePlus } from "react-icons/ai";
+import { LuBedDouble } from "react-icons/lu";
+import { PiBathtub } from "react-icons/pi";
+import { BsArrowsFullscreen } from "react-icons/bs";
 
 
 import Carousel from 'react-multi-carousel';
@@ -11,6 +16,8 @@ import 'react-multi-carousel/lib/styles.css';
 import m1 from './images/m1.png'
 import m2 from './images/m2.png'
 import m3 from './images/m3.png'
+
+import prof from './images/prof.png'
 
 const Carosel = () => {
 
@@ -56,17 +63,23 @@ const Carosel = () => {
                             <h4>$ 590,693</h4>
                         </div>
                         <div className='carolSize'>
-                            <p>4</p>
-                            <p>4</p>
-                            <p>2,096.00 ft</p>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
                         </div>
 
                         <hr />
 
                         <div className='carolProfile'>
-                            <div>
-                                <img src="" alt="" />
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
                                 <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
                             </div>
                         </div>
                     </div>
@@ -81,21 +94,23 @@ const Carosel = () => {
                             <h4>$ 590,693</h4>
                         </div>
                         <div className='carolSize'>
-                            <p>4</p>
-                            <p>4</p>
-                            <p>2,096.00 ft</p>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
                         </div>
 
                         <hr />
 
                         <div className='carolProfile'>
-                            <div>
-                                <img src="" alt="" />
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
                                 <h4>Jenny Wilson</h4>
                             </div>
 
-                            <div>
-                                <p></p>
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
                             </div>
                         </div>
                     </div>
@@ -111,17 +126,23 @@ const Carosel = () => {
                             <h4>$ 590,693</h4>
                         </div>
                         <div className='carolSize'>
-                            <p>4</p>
-                            <p>4</p>
-                            <p>2,096.00 ft</p>
+                            <p><LuBedDouble />4</p>
+                            <p><PiBathtub />4</p>
+                            <p><BsArrowsFullscreen />2,096.00 ft</p>
                         </div>
 
                         <hr />
 
                         <div className='carolProfile'>
-                            <div>
-                                <img src="" alt="" />
+                            <div className='profDivCarol'>
+                                <img src={prof} alt="" />
                                 <h4>Jenny Wilson</h4>
+                            </div>
+
+                            <div className='iconsDiv'>
+                                <p><BsShare /></p>
+                                <p><TfiCommentAlt /></p>
+                                <p><AiOutlinePlus /></p>
                             </div>
                         </div>
                     </div>

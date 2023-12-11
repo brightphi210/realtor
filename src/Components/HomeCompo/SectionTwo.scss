@@ -145,16 +145,115 @@
 
 .carolPrice h4{
     margin-left: auto;
-    
+    font-size: 16px;
+    color: $my-blue;
 }
 
 .carolSize{
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
+.carolSize p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.carolSize{
+    padding: 10px 0;
+}
 .caroseldivEachText p{
-    padding: 10px 0 !important;
+    padding: 10px 0 ;
 }
 
+.carolProfile{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.profDivCarol{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profDivCarol img{
+    width: 30px;
+}
+
+.carolProfile h4{
+    padding: 0;
+
+}
+
+.iconsDiv{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.iconsDiv p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEFF6;
+    width: 100%;
+    padding: 6px 10px !important;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+hr{
+    border: rgb(234, 234, 234) solid 1px;
+    padding: 0;
+    
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+
+    .react-multiple-carousel__arrow {
+        bottom: 0;
+        position: absolute;
+        outline: 0;
+        cursor: pointer;
+    }
+    .caroselDiv{
+        text-align: left;
+        padding: 50px 5%;
+    }
+    
+    
+    .caroselDivEach{
+        margin-right: 0;
+    }
+
+    .caroseldivEachText h3{
+        font-size: 15px;
+    }
+
+    .carolPrice p{
+        font-size: 12px;
+    }
+
+    .carolSize{
+        padding: 10px 0;
+    }
+
+    .carolProfile{
+        padding-top: 10px;
+        display: block;
+    }
+
+    .iconsDiv p{
+        font-size: 12px;
+        width: fit-content;
+        margin-top: 10px;
+    }
+    
+}
 
