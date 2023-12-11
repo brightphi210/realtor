@@ -217,10 +217,8 @@ hr{
 @media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
 
     .react-multiple-carousel__arrow {
-        bottom: 0;
-        position: absolute;
-        outline: 0;
-        cursor: pointer;
+        background: rgba(0,0,0,0.5) !important;
+        top: 40px;
     }
     .caroselDiv{
         text-align: left;
@@ -230,6 +228,8 @@ hr{
     
     .caroselDivEach{
         margin-right: 0;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     }
 
     .caroseldivEachText h3{
@@ -245,14 +245,35 @@ hr{
     }
 
     .carolProfile{
-        padding-top: 10px;
-        display: block;
+        padding-top: 5px;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .profDivCarol{
+        align-items: center;
+    }
+
+    .profDivCarol h4{
+        font-size: 12px;
+    }
+
+    .profDivCarol img{
+        width: 20px;
+    }
+
+
+    .iconsDiv{
+        margin-left: auto;
+        gap: 5px;
+        padding: 5px;
+        align-items: center;
     }
 
     .iconsDiv p{
         font-size: 12px;
         width: fit-content;
-        margin-top: 10px;
     }
     
 }
