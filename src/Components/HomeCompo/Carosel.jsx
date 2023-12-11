@@ -43,7 +43,7 @@ const Carosel = () => {
     <div>
         <div className='caroselDiv'>
             <h2>Recommended Properties</h2>
-            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere </p>
+            <p className='carolp'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere </p>
 
             <Carousel 
                 responsive={responsive}
