@@ -29,6 +29,10 @@ const SectionThree = () => {
 
         <div className='sectionThreea'>
 
+        <div className='sectionThreeOnea newThree '>
+                <img src={d} alt="" />
+            </div>
+
             <div className='sectionThreeTwoa'> 
                <div className='sectionThreeTexta'>
                     <h2>Need a home? Contact our  Real <br /> Estate Agents</h2>
@@ -43,7 +47,7 @@ const SectionThree = () => {
                </div>
             </div>
 
-            <div className='sectionThreeOne'>
+            <div className='sectionThreeOnea bigThree'>
                 <img src={d} alt="" />
             </div>
         </div>

@@ -104,4 +104,84 @@
 }
 
 
+.newThree{
+    display: none;
+}
 
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .sectionThree{
+        display: block;
+    }
+    
+    .sectionThreeText{
+        width: 100%;
+    }
+
+    .sectionThree img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .sectionThreeTwo{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .sectionThreeText h2{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .sectionThreeText p{
+        font-size: 11px;
+        line-height: 17px;
+        text-align: justify;
+    }
+
+    .sectionThreeText button{
+        padding: 10px 30px;
+    }
+
+
+    // ============second ========================
+    .sectionThreea{
+        display: block;
+    }
+
+    .sectionThreeTexta{
+        width: 100%;
+    }
+
+    .sectionThreea img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .newThree{
+        display: block;
+    }
+
+    .bigThree{
+        display: none;
+    }
+
+    .sectionThreeTwoa{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .sectionThreeTexta h2{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .sectionThreeTexta p{
+        font-size: 11px;
+        line-height: 17px;
+        text-align: justify;
+    }
+
+    .sectionThreeTexta button{
+        padding: 10px 30px;
+    }
+}
