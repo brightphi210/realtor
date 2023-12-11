@@ -1,0 +1,114 @@
+
+@import '../variables.scss';
+
+*{@include default}
+
+
+// ====================== Nav Section ===========================
+.displaySmall{
+    display: none;
+}
+
+.navSection{
+    display: flex;
+    align-items: center;
+    padding: 15px 5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 100%;
+    position: fixed;
+    background-color: $my-white;
+}
+
+.navIcons{
+    display: none;
+}
+
+.navSection p{
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.navSectionTwo{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.navSecTwoDivOne{
+    display: flex;
+    margin: auto;
+    gap: 40px;
+    align-items: center;
+}
+
+.navSecTwoDivTwo{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navSecTwoDivTwo button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: $my-blue;
+    color: $my-white;
+    border: none;
+}
+
+.navSecTwoDivTwo button:hover{
+    background-color: #3d44aa;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+
+// ===================== responsive =========================
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .hideSmall{
+        display: none;
+    }
+
+
+    .navSection img{
+        width: 120px;
+    }
+
+
+    .displaySmall{
+        background-color:$my-gray;
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        padding: 30px;
+        z-index: 3;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .displaySmall .navSecTwoDivOne{
+        display: block;
+    }
+
+
+    .displaySmall .navSecTwoDivOne p{
+        padding-bottom: 15px;
+    }
+
+    .displaySmall .navSecTwoDivTwo{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .displaySmall .navSecTwoDivTwo button{
+        margin-top: 15px;
+    }
+}
+

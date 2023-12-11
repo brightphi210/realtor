@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;900&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+@mixin default{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+$my-blue: #2B3295;
+$my-white: white;
+$my-gray: rgb(253, 253, 253);
+
+// ============= Screens =================
+$small-One : 320px;
+$small-Two : 480px;
+$medium-One : 481px ;
+$medium-Two : 768px;
+$large-One : 1025px;
+$large-Two : 1200px;
+
+
+
+a{
+    text-decoration: none;
+}
