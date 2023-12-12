@@ -6,6 +6,7 @@ import SectionTwo from '../Components/HomeCompo/SectionTwo'
 import Carosel from '../Components/HomeCompo/Carosel'
 import SectionThree from '../Components/HomeCompo/SectionThree'
 import SectionFour from '../Components/HomeCompo/SectionFour'
+import Footer from '../Components/Footer/Footer'
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <Carosel />
         <SectionThree />
         <SectionFour />
+        <Footer />
     </div>
   )
 }

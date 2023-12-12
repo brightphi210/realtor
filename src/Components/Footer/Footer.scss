@@ -1,0 +1,80 @@
+@import '../variables.scss';
+
+*{@include default}
+
+// =================== Footer ==============================
+
+.footerSection{
+    padding: 30px 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footDesc{
+    line-height: 20px;
+}
+.footOne{
+    width: 100%;
+}
+
+.footOne h2{
+    padding-bottom: 20px;
+}
+
+.footOne p{
+    padding-bottom: 10px;
+}
+
+.footerSection .Two{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerSection .three{
+    display: flex;
+    margin-left: auto;
+}
+
+
+
+
+.footerSection .three span{
+    color: rgb(111, 111, 111);
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .footerSection{
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .footerSection .Two{
+        margin: 0;
+        display: flex;
+        justify-content: left;
+    }
+
+
+    .footerSection h2{
+        padding-bottom: 0;
+        font-size: 15px;
+    }
+    
+    .footerSection p{
+        padding-bottom: 10px;
+        font-size: 11px;
+    }
+
+
+    .footOne{
+        padding-bottom: 30px;
+    }
+    
+    
+}
