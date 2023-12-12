@@ -1,0 +1,63 @@
+@import '../variables.scss';
+
+*{@include default}
+
+// =================== section Four ==============================
+
+.sectionFour{
+    background-image: url('./images/bg.png');
+    // background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.sectionFourDiv{
+    padding: 50px;
+    color: white;
+}
+
+
+.sectionFourDiv h2{
+    font-size: 30px;
+}
+
+.sectionFourDiv p{
+    padding: 15px 0;
+    line-height: 20px;
+}
+
+
+.sectionFourDiv button{
+    padding: 15px 30px ;
+    background: none;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .sectionFourDiv{
+        padding: 20px;
+        padding-top: 30px;
+        color: white;
+    }
+
+    .sectionFourDiv h2{
+        font-size: 20px;
+    }
+    
+    .sectionFourDiv p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .sectionFourDiv button{
+        padding: 10px 30px;
+    }
+    
+}
