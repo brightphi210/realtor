@@ -1,14 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ProSingle.scss'
 
 import { BsShare } from "react-icons/bs";
 import { TfiCommentAlt } from "react-icons/tfi";
 import { AiOutlinePlus } from "react-icons/ai";
 
+import { IoClose } from "react-icons/io5";
+
 import proSingleImage from './Images/m3.png'
 import proSingProf from './Images/prof.png'
 
 const ProSingleCom = () => {
+
+
+  const [openModal, setOpenModal] = useState(true)
+
+  const isOpen = () =>{
+    setOpenModal(true)
+  }
+
+
+  const isClose = () =>{
+    setOpenModal(false)
+  }
+
+
   return (
     <div>
         <div className='proSecOne'>
@@ -50,7 +66,7 @@ const ProSingleCom = () => {
               </p>
 
               <h3>$ 590,693</h3>
-              <button>Purchase</button>
+              <button onClick={isOpen}>Purchase</button>
             </div>
           </div>
 
@@ -58,6 +74,55 @@ const ProSingleCom = () => {
             <img src={proSingleImage} alt="" />
           </div>
         </div>
+
+        {openModal && (
+          <div className='modal'>
+
+            <div className='modal-content'>
+              <div className='closeIcon'>
+                <h2>Purchase property</h2>
+                <p onClick={isClose}><IoClose /></p>
+              </div>
+
+              <hr />
+
+              <div>
+                <div>
+                  <img src="" alt="" />
+
+                  <div className='modalText'>
+                    <h2>92 ALLIUM PLACE, ORLANDO FL 32827 <span>2,096.00 ft</span></h2>
+                    <div className='modalPriceDiv'>
+                      <h4>Purchase Total </h4>
+                      <h3>NGN590,693</h3>
+                    </div>
+                    
+                    <div className='modalCategory'>
+                      <button>Category: Infooo...</button>
+                      <select>
+                        <option value="">Contact Salesman</option>
+                      </select>
+                    </div>
+
+
+                    <p className='msgHint'>Hint text is here!</p>
+                  </div>
+                </div>
+
+                <div className='modalBtns'>
+                  <div></div>
+                  <div className='btnModal'>
+                    <button>Cancel</button>
+                    <button className='pBtn'>Purchase</button>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+        )}
     </div>
   )
 }
