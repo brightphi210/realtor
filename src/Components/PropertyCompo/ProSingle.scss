@@ -330,11 +330,15 @@ hr{
     }
 
     .modalBtns{
-        dis
+        display: block;
     }
-
+    
     .btnModal{
-
+        gap: 10px;
+    }
+    
+    .btnModal button{
+        font-size: 10px;
     }
 
 }
