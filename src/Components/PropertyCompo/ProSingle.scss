@@ -106,15 +106,39 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 8% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    height: 60vh;
+}
+
 hr{
     margin-top: 10px;
     border: #f0f0f0 solid 1px;
 }
 
 
+.proModalImage{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.proModalImage img{
+    border-radius: 10px;
+}
+
 .modalText h2{
     color: $my-blue;
 }
+
+
 .modalText span{
     font-size: 12px;
 }
@@ -157,16 +181,7 @@ hr{
     color: $my-blue;
 }
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 8% auto;
-    padding: 30px;
-    border: 1px solid #888;
-    width: 80%;
-    border-radius: 10px;
-    border: none;
-    height: 60vh;
-}
+
 
 
 .msgHint{
@@ -245,4 +260,81 @@ hr{
     .proSingleDivImage img{
         width: 100%;
     }
+    
+
+
+    // ===================== Modal ========================
+    .modal-content {
+        background-color: #fefefe;
+        margin: 25% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 90%;
+        border-radius: 10px;
+        border: none;
+        height: 80vh;
+    }
+
+
+    .modalCategory{ 
+        display: block;
+        margin-top: 20px;
+        gap: 0;
+        align-items: center;
+    }
+
+    .proModalImage{
+        display: block;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .proModalImage img{
+        width: 100%;
+    }
+    
+
+    .closeIcon h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .closeIcon p{
+        font-size: 15px;
+    }
+
+    .modalText h2{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .modalPriceDiv h4, h3{
+        font-size: 12px;
+    }
+
+    .modalCategory{
+        display: flex;
+        gap: 10px;
+    }
+
+    .modalCategory button{
+        padding: 10px 10px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+
+    .modalCategory select{
+        padding: 10px 10px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+
+    .modalBtns{
+        dis
+    }
+
+    .btnModal{
+
+    }
+
 }

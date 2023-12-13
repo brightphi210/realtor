@@ -10,6 +10,7 @@ import { IoClose } from "react-icons/io5";
 import proSingleImage from './Images/m3.png'
 import proSingProf from './Images/prof.png'
 
+
 const ProSingleCom = () => {
 
 
@@ -87,18 +88,20 @@ const ProSingleCom = () => {
               <hr />
 
               <div>
-                <div>
-                  <img src="" alt="" />
+                <div className='proModalImage'>
+                  <div>
+                    <img src={proSingleImage} alt="" width={150} />
+                  </div>
 
                   <div className='modalText'>
-                    <h2>92 ALLIUM PLACE, ORLANDO FL 32827 <span>2,096.00 ft</span></h2>
+                    <h2>92 ALLIUM PLACE, ORLANDO <span>2,096.00 ft</span></h2>
                     <div className='modalPriceDiv'>
                       <h4>Purchase Total </h4>
                       <h3>NGN590,693</h3>
                     </div>
                     
                     <div className='modalCategory'>
-                      <button>Category: Infooo...</button>
+                      <button>Category: Infooo..</button>
                       <select>
                         <option value="">Contact Salesman</option>
                       </select>
