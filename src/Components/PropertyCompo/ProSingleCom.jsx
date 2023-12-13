@@ -115,7 +115,7 @@ const ProSingleCom = () => {
                 <div className='modalBtns'>
                   <div></div>
                   <div className='btnModal'>
-                    <button>Cancel</button>
+                    <button onClick={isClose}>Cancel</button>
                     <button className='pBtn'>Purchase</button>
                   </div>
                 </div>
