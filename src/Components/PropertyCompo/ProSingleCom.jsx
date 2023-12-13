@@ -119,8 +119,6 @@ const ProSingleCom = () => {
                     <button className='pBtn'>Purchase</button>
                   </div>
                 </div>
-
-
               </div>
             </div>
 
