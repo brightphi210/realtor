@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Property from "./Pages/Property";
 import SignUp from "./Pages/SignUp";
 import Login from "./Pages/Login";
+import ProSingle from "./Pages/ProSingle";
 function App() {
   return (
     <div className="App">
@@ -13,9 +14,8 @@ function App() {
           <Route path="/signup" element={<SignUp />}></Route>
           <Route path="/" element={<Home />}></Route>
           <Route path="/property" element={<Property />}></Route>
-          {/* <Route path="/category" element={<Category />}></Route>
-          <Route path="/talents" element={<Talents />}></Route>
-          <Route path="/registerOption" element={<RegistraionOption />}></Route> */}
+          <Route path="/proSingle" element={<ProSingle />}></Route>
+          {/* <Route path="/talents" element={<Talents />}></Route> */}
         </Routes>
       </BrowserRouter>
     </div>

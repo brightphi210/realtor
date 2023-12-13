@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom';
+
 import { FaLocationDot } from "react-icons/fa6";
 import { BsShare } from "react-icons/bs";
 import { TfiCommentAlt } from "react-icons/tfi";
@@ -57,7 +59,7 @@ const ProCarosel = () => {
                 keyBoardControl={true}
             >
                 <div className='caroselDivEach'>
-                    <img src={m1} alt="" />
+                    <Link to={'/proSingle'}><img src={m1} alt="" /></Link>
                     <div className='caroseldivEachText'>
                         <h3>92 ALLIUM PLACE, ORLANDO FL</h3>
                         <div className='carolPrice'>

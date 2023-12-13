@@ -1,0 +1,81 @@
+@import '../variables.scss';
+
+*{@include default}
+
+
+// ====================== Pro Single ===========================
+
+
+
+.proSingleDiv{
+    display: flex;
+    justify-content: center;
+    padding: 40px 10%;
+    gap: 100px;
+}
+
+.proSingleDivFlex{
+    width: 100%;
+}
+
+.proDivSing{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.proSingleSub{
+    display: flex;
+}
+
+.proIconsDiv{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.proIconsDiv p{
+    background-color: rgb(214, 214, 214);
+    padding: 5px 10px;
+    font-size: 15px;
+    color: $my-blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.proSingleDivImage{
+    // margin-left: auto;
+    width: 100%;
+}
+
+.proSingleDivImage img{
+    width: 100%;
+}
+
+.proSingText h2{
+    color: $my-blue;
+    padding: 20px 0;
+}
+
+.proSingText p{
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.proSingText h3{
+    font-size: 30px;
+}
+
+.proSingText button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: solid 1px $my-blue;
+    background-color: white;
+    cursor: pointer;
+}
