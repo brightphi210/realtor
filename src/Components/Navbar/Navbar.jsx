@@ -26,15 +26,15 @@ const Navbar = () => {
 
 
             <div className='navSecTwoDivOne hideSmall'>
-              <p>Home</p>
-              <p>Properties</p>
+              <Link to={'/'}><p>Home</p></Link>
+              <Link to={'/property'}><p>Properties</p></Link>
               <p>Become an agent</p>
               <p>Company</p>
             </div>
 
             <div className='navSecTwoDivTwo hideSmall'>
-              <p>Login</p>
-              <button>Sign up</button>
+              <Link to={'/login'}><p>Login</p></Link>
+              <Link to={'/singup'}><button>Sign up</button></Link>
             </div>
 
             <div className='navIcons'>
@@ -45,15 +45,15 @@ const Navbar = () => {
 
             <div className= {`displaySmall ${openNavbar ? 'open' : ''}`}>
               <div className='navSecTwoDivOne'>
-                <p>Home</p>
-                <p>Properties</p>
+                <Link to={'/'}><p>Home</p></Link>
+                <Link to={'/property'}><p>Properties</p></Link>
                 <p>Become an agent</p>
                 <p>Company</p>
               </div>
 
               <div className='navSecTwoDivTwo'>
-                <p>Login</p>
-                <button>Sign up</button>
+                <Link to={'/login'}><p>Login</p></Link>
+                <Link to={'/singup'}><button>Sign up</button></Link>
               </div>
             </div>
 

@@ -1,0 +1,98 @@
+@import '../variables.scss';
+
+*{@include default}
+
+// ====================== Pro Section ===========================
+
+.proSecOne{
+    background-image: url('./Images/propImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.proSecOne h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+.proSectTwo{
+    display: flex;
+    padding: 30px 10%;
+    align-items: center;
+    // gap: 100px;
+    justify-content: center;
+}
+
+
+.proOne h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: $my-blue;
+}
+
+.proOneEach{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.proOne h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+.proTwo{
+    margin-left: auto;
+}
+
+.proTwo img{
+    width: 90%;
+    margin-left: auto;
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    
+    .proSecOne{
+        height: 30vh;
+    }
+
+    .proSecOne h2{
+        padding-top: 50px;
+    }
+
+    .proOne h2{
+        font-size: 20px;
+    }
+
+    .proOne h3{
+        font-size: 15px;
+    }
+
+    .proOne p{
+        font-size: 12px;
+    }
+
+
+
+    .proSectTwo{
+        display: block;
+    }
+
+    .proTwo img{
+        width: 100%;
+    }
+
+
+    
+}
