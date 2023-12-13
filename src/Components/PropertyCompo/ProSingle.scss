@@ -37,8 +37,8 @@
 }
 
 .proIconsDiv p{
-    background-color: rgb(214, 214, 214);
-    padding: 5px 10px;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 15px;
     font-size: 15px;
     color: $my-blue;
     border-radius: 5px;
@@ -49,12 +49,12 @@
 
 
 .proSingleDivImage{
-    // margin-left: auto;
     width: 100%;
 }
 
 .proSingleDivImage img{
     width: 100%;
+    border-radius: 10px;
 }
 
 .proSingText h2{
@@ -78,4 +78,53 @@
     border: solid 1px $my-blue;
     background-color: white;
     cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .proSingleDiv{
+        display: block;
+        padding: 40px 5%;
+    }
+
+    .proSingleSub{
+        align-items: center;
+        display: flex;
+    }
+
+    .proDivSing{
+        font-size: 12px;
+    }
+
+    .proIconsDiv{
+        padding: 0;
+    }
+
+    .proIconsDiv p{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .proSingText h2{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .proSingText p{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .proSingText h3{
+        font-size: 15px;
+    }
+
+    .proSingText button{
+        margin: 10px 0;
+    }
+
+    .proSingleDivImage img{
+        width: 100%;
+    }
 }
