@@ -5,6 +5,7 @@ import Property from "./Pages/Property";
 import SignUp from "./Pages/SignUp";
 import Login from "./Pages/Login";
 import ProSingle from "./Pages/ProSingle";
+import Agent from "./Pages/Agent";
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/property" element={<Property />}></Route>
           <Route path="/proSingle" element={<ProSingle />}></Route>
-          {/* <Route path="/talents" element={<Talents />}></Route> */}
+          <Route path="/agents" element={<Agent />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className='navSecTwoDivOne hideSmall'>
               <Link to={'/'}><p>Home</p></Link>
               <Link to={'/property'}><p>Properties</p></Link>
-              <p>Become an agent</p>
+              <Link to={'/agents'}><p>Become an agent</p></Link>
               <p>Company</p>
             </div>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
               <div className='navSecTwoDivOne'>
                 <Link to={'/'}><p>Home</p></Link>
                 <Link to={'/property'}><p>Properties</p></Link>
-                <p>Become an agent</p>
+                <Link to={'/agents'}><p>Become an agent</p></Link>
                 <p>Company</p>
               </div>
 
