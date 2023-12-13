@@ -14,7 +14,7 @@ import proSingProf from './Images/prof.png'
 const ProSingleCom = () => {
 
 
-  const [openModal, setOpenModal] = useState(true)
+  const [openModal, setOpenModal] = useState(false)
 
   const isOpen = () =>{
     setOpenModal(true)
