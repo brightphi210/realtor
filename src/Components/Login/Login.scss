@@ -1,0 +1,212 @@
+@import '../variables.scss';
+
+*{@include default}
+
+
+// ==================== Login Part =======================
+
+.loginDiv{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.logimageDiv{
+    width: 100%;
+}
+
+.logimageDiv img{
+    width: 100%;
+}
+
+
+.backLog{
+    font-size: 20px;
+    color: $my-blue;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+
+// ============================== Login Text ======================== 
+
+.logTextDiv{
+    width: 100%;
+}
+
+
+.inputDivEye{
+    position: relative;
+}
+
+.eyeDIv{
+    position: absolute;
+    top: 0;
+    left: 55%;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+.inputDiv p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.inputDiv input{
+    padding: 20px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.logRem{
+    padding: 20px 0;
+    display: flex;
+    width: 60%;
+}
+
+.logRight{
+    margin-left: auto;
+}
+
+.logBtn{
+    padding: 15px;
+    width: 60%;
+    background-color: $my-blue;
+    font-size: 13px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.logOrDiv{
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    margin-top: 20px;
+
+}
+
+.logOrDiv p{
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.logOrDiv hr{
+    width: 100%;
+    height: 0;
+}
+
+
+.logIcons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.logIconsDiv{
+    padding: 10px 20px;
+    background-color: $my-blue;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dont{
+    padding-top: 20px;
+    text-align: center;
+    width: 60%;
+}
+
+.dont span{
+    font-weight: 700;
+    color: $my-blue;
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+
+    .logimageDiv{
+        display: none;
+    }
+    .loginDiv{
+        display: block;
+        height: 100vh;
+        overflow: hidden;
+        align-items: center;
+        gap: 0;
+    
+    }
+
+    .logTextDiv{
+        padding: 30px 5%;
+    }
+
+    .logTextDiv h2{
+        font-size: 18x;
+    }
+
+    .logTextDiv p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+
+    .backLog{
+        font-size: 20px !important;
+    }
+
+
+
+    .inputDiv input{
+        width: 100%;
+        padding: 13px;
+        border-radius: 10px;
+    }
+
+
+
+    .eyeDIv{
+        left: 90%;
+        top: -15%;
+    }
+    .logRem{
+        width: 100%;
+    }
+    
+    .logBtn{
+        width: 100%;
+        padding: 13px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .logOrDiv{
+        width: 100%;
+    }
+    
+    .logIcons{
+        width: 100%;
+    }
+
+
+    .dont{
+        width: 100%;
+    }
+}

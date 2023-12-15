@@ -34,7 +34,7 @@ const Navbar = () => {
 
             <div className='navSecTwoDivTwo hideSmall'>
               <Link to={'/login'}><p>Login</p></Link>
-              <Link to={'/singup'}><button>Sign up</button></Link>
+              <Link to={'/signup'}><button>Sign up</button></Link>
             </div>
 
             <div className='navIcons'>
@@ -53,7 +53,7 @@ const Navbar = () => {
 
               <div className='navSecTwoDivTwo'>
                 <Link to={'/login'}><p>Login</p></Link>
-                <Link to={'/singup'}><button>Sign up</button></Link>
+                <Link to={'/signup'}><button>Sign up</button></Link>
               </div>
             </div>
 

@@ -8,10 +8,11 @@ import 'react-multi-carousel/lib/styles.css';
 
 import agentImage from './agentImage2.png'
 import agents from './agents.png'
-
+import cd from './cd.png'
 import { FaLocationDot } from "react-icons/fa6";
 import { LuBedDouble } from "react-icons/lu";
 import { BsArrowsFullscreen } from "react-icons/bs";
+
 
 
 const AgentCom = () => {
@@ -137,6 +138,21 @@ const AgentCom = () => {
                 </p>
                 <button>Apply</button>
             </div>
+        </div>
+
+
+        <div className='talkDiv'>
+          <div className='talkImageDiv'>
+              <img src={cd} alt="" />
+          </div>
+
+          <div className='talkTextDiv'>
+            <div>
+              <h2>Talk to a Local Agent & <br /> start your Journey</h2>
+              <p>Talk to a Local Agent and start you Journey</p>
+            </div>
+            <button>Send Message <FiSearch /></button>
+          </div>
         </div>
     </div>
   )

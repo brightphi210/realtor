@@ -173,3 +173,48 @@
     border: none;
     border-radius: 20px;
 }
+
+
+// ========================= talkImageDiv ==================================
+
+.talkDiv{
+    display: flex;
+    padding: 50px 10%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+}
+
+.talkImageDiv {
+    width: 100%;
+}
+
+.talkImageDiv img {
+    width: 100%;
+}
+
+
+.talkTextDiv{
+    width: 100%;
+}
+
+
+.talkTextDiv h2{
+    font-size: 30px;
+}
+
+.talkTextDiv p{
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.talkTextDiv button{
+    padding: 13px 30px;
+    border: solid $my-blue 1px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
