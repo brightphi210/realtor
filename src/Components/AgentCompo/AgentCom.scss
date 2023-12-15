@@ -218,3 +218,120 @@
     align-items: center;
     gap: 5px;
 }
+
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .agentBanner h2{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .agentInputDiv input{
+        padding: 13px 30px;
+        width: 90%;
+        border-radius: 30px;
+        
+    }
+    
+    .agentInputDiv button{
+        padding: 10px 30px; 
+        font-size: 15px;
+        right: 5%;
+    }
+
+    .agentSectionTwo{
+        display: block;
+        padding: 50px 5%;
+        gap: 0;
+    }
+
+
+    .agentSectionTwo h2{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    
+    
+    .agentSectionTwo p{
+        font-size: 11px;
+        padding: 20px 0;
+        text-align: justify;
+    }
+    
+    
+    .agentSectionTwo button{
+        padding: 10px 40px;
+        color: white;
+    }
+
+
+    .meetDiv{
+        padding: 10px 5%;
+    }
+
+
+    .meetProfDiv{
+        margin: 10px 0;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .meetProfDiv h2{
+        font-size: 15px;
+    }
+
+    .meetProfDiv p{
+        font-size: 12px;
+    }
+
+    .talkDiv{
+        display: block;
+        padding: 50px 5%;
+        gap: 0;
+    }
+
+
+    .applyBanner{
+        height: 40vh;
+        display: flex;
+        width: 100%;
+        background-size:auto;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .applyText{
+        width: 90%;
+        color: white;
+    }
+    
+    .applyText p{
+        padding: 15px 0;
+        font-size: 11px;
+    
+    }
+
+    .applyText h2{
+        font-size: 18px;
+    }
+    
+    .applyText button{
+        padding: 10px 40px;
+        background-color: white;
+        color: $my-blue;
+        border: none;
+        border-radius: 20px;
+    }
+
+
+    .talkTextDiv h2{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    
+    
+}
