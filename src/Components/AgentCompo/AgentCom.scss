@@ -222,6 +222,11 @@
 
 
 @media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    
+    .agentBanner{
+        height: 40vh;
+    }
+    
     .agentBanner h2{
         font-size: 20px;
         color: white;
