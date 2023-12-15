@@ -308,3 +308,22 @@ hr{
     
 }
 
+
+
+@media only screen and (min-width: 1024px) and (max-width:1200px) {
+    .sectionTwo{
+        padding: 50px 5%;
+    }
+
+    .sectionTwo p{
+        font-size: 12px;
+    }
+
+    .secTwoIcons {
+        font-size: 30px !important;
+    }
+
+    .caroselDiv{
+        padding: 30px 5%;
+    }
+}
