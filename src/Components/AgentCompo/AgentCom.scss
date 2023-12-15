@@ -11,7 +11,7 @@
 
 
 .agentBanner{
-    background-image: url('./agentImage.png');
+    background-image: url(./agentImage.png);
     justify-content: center;
     align-items: center;
     height: 50vh;
@@ -58,4 +58,118 @@
     border-radius: 0 30px 30px 0;
     background-color: $my-blue;
     color: white;
+}
+
+
+
+.agentSectionTwo{
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    gap: 100px;
+}
+
+.agentSectionTwo div{
+    width: 100%;
+}
+
+
+.agentSectionTwo img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.agentSectionTwo h2{
+    font-size: 40px;
+}
+
+
+.agentSectionTwo p{
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+
+.agentSectionTwo button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: $my-blue;
+    color: white;
+}
+
+
+// ========================== meets agents ====================================
+
+.meetDiv{
+    padding: 10px 10%;
+}
+
+.meetH2{
+    text-align: center;
+}
+
+.meetFlex{
+}
+
+.meetProfDiv{
+    margin: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    text-align: center;
+}
+
+.meetProfDiv img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.meetProfDiv h2{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+
+.meetProfDiv p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+
+
+.applyBanner{
+    background-image: url(./agentApply.png);
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    display: flex;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+
+.applyText{
+    width: 30%;
+    color: white;
+}
+
+.applyText p{
+    padding: 15px 0;
+
+}
+
+.applyText button{
+    padding: 13px 40px;
+    background-color: white;
+    color: $my-blue;
+    border: none;
+    border-radius: 20px;
 }
