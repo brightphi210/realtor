@@ -57,10 +57,10 @@
 }
 
 .inputDiv input{
-    padding: 20px;
+    padding: 16px;
     width: 60%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     outline: none;
     font-size: 13px;
@@ -83,7 +83,7 @@
     font-size: 13px;
     color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -208,5 +208,99 @@
 
     .dont{
         width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .inputDiv input{
+        padding: 20px;
+        width: 80%;
+    }
+
+    .logimageDiv{
+        height: 100vh;
+    }
+
+    .logimageDiv img{
+        height: 100vh;
+    }
+
+
+    .inputDiv input{
+        padding: 12px 20px;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .logTextDiv p{
+        font-size: 12px;
+    }
+
+    .logBtn{
+        padding: 12px;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .logOrDiv{
+        display: flex;
+        gap: 10px;
+        width: 80%;
+        margin-top: 20px;
+    
+    }
+
+    .backLog{
+        font-size: 20px !important;
+    }
+
+    .eyeDIv{
+        left: 70%;
+        top: -15%;
+    }
+}
+
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+    .inputDiv input{
+        padding: 12px 20px;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .logTextDiv p{
+        font-size: 12px;
+    }
+    
+
+    .inputDiv p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .logBtn{
+        padding: 12px;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+
+    .logimageDiv{
+        height: 100vh;
+    }
+
+    .logimageDiv img{
+        height: 100vh;
+    }
+
+    .backLog{
+        font-size: 20px !important;
+    }
+
+
+    .eyeDIv{
+        left: 70%;
+        top: 10%;
     }
 }
